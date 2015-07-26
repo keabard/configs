@@ -1,14 +1,16 @@
 [global_config]
-  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
-  title_hide_sizetext = True
   window_state = fullscreen
-  tab_position = hidden
+  enabled_plugins = LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
   borderless = True
+  suppress_multiple_term_dialog = True
+  title_hide_sizetext = True
+  tab_position = hidden
 [keybindings]
   close_term = <Ctrl>F4
   new_window = <Ctrl>t
 [profiles]
   [[default]]
+    background_image = None
     background_darkness = 0.81
     cursor_shape = underline
     cursor_color = "#ff0000"
@@ -16,7 +18,7 @@
     icon_bell = False
     scrollback_infinite = True
   [[small]]
-    background_image = /home/keabard/Pictures/Eye-wallpaper-eyes-8027370-1024-768.jpg
+    background_image = /home/keabard/.config/terminator/blue_bg.jpg
     background_darkness = 0.77
     background_type = image
     cursor_color = "#ff0000"
@@ -25,7 +27,7 @@
     cursor_shape = underline
     scrollback_infinite = True
   [[big]]
-    background_image = /home/keabard/Pictures/1920x1080_girl-edited-make-up-red-eyes-HD-Wallpaper.jpg
+    background_image = /home/keabard/.config/terminator/red_bg.jpg
     background_darkness = 0.77
     background_type = image
     cursor_color = "#ff0000"
