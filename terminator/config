@@ -10,8 +10,9 @@
   new_window = <Ctrl>t
 [profiles]
   [[default]]
-    background_image = None
-    background_darkness = 0.81
+    background_image = /home/keabard/Pictures/sylv_bg.jpg
+    background_darkness = 0.77
+    background_type = image
     cursor_shape = underline
     cursor_color = "#ff0000"
     scroll_background = False
